@@ -1,0 +1,370 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "5f358937ac0feedb1c55",
+  "time": 888,
+  "builtAt": 1589504750256,
+  "publicPath": "",
+  "outputPath": "D:\\Lean\\webpack4\\webpackDemo\\dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "./index.html",
+      "size": 484,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 39780,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 2850,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "2890ef162108f1009292",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/js/index.js",
+          "identifier": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_babel-loader@8.1.0@babel-loader\\lib\\index.js??ref--4-0!D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_imports-loader@0.8.0@imports-loader\\index.js?this=>window!D:\\Lean\\webpack4\\webpackDemo\\src\\js\\index.js",
+          "name": "./src/js/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 2850,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 148,
+            "building": 674
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/js/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "/*** IMPORTS FROM imports-loader ***/\n(function () {\n  // import Header from './header';\n  // import Sidebar from './sidebar';\n  // import Content from './content'\n  // const avatar = require('../img/girl.jpeg')\n  // console.log('avatar', avatar);\n  // new Header();\n  // new Sidebar();\n  // new Content();\n  // import createAvatar from './createAvatar';\n  // import '../css/index.scss'\n  // import style from '../css/index.scss';\n  // import avatar from '../img/girl.jpeg';\n  // const img = new Image();\n  // img.src = avatar;\n  // img.classList.add(style.avatar)\n  // const dom = document.getElementById('root');\n  // dom.append(img);\n  // createAvatar();\n  // console.log('Hello world');\n  // var root = document.getElementById('root');\n  // var btn = document.createElement('button');\n  // btn.innerHTML = '新增';\n  // root.appendChild(btn);\n  // console.log(root, btn)\n  // btn.onclick = function() {\n  //     var div = document.createElement('div');\n  //     div.innerHTML = 'item';\n  //     root.appendChild(div);\n  // }\n  // import counter from './counter';\n  // import number from './number';\n  // counter();\n  // number();\n  // if(module.hot) {\n  //     module.hot.accept('./number', () => {\n  //         number();\n  //     })\n  // }\n  // babel\n  // import '@babel/polyfill'\n  // const arr = [\n  //     new Promise(() => {}),\n  //     new Promise(() => {})\n  // ];\n  // arr.map((item) => {\n  //     console.log(item);\n  // })\n  // tree shaking (提取有用代码)\n  // import {add} from './math';\n  // console.log('add', add(100, 50));\n  // console.log('add', add(200, 50));\n  // code splitting 代码分割\n  // import _ from 'lodash';\n  // console.log('lodash join', _.join(['a', 'b', 'c'], '**'))\n  // 模块的异步加载(getComponent 是webpack提供的方法)\n  // async function getComponent() {\n  //     const {default: _} = await import(/*webpackChunkName:\"lodash\" */ 'lodash');\n  //     var div = document.createElement('div');\n  //     div.innerHTML = _.join(['Hadwin', 'zhanghuawei'], \"_\");\n  //     return div;\n  // }\n  // // 返回的其实是一个promise对象\n  // document.addEventListener('click', () => {\n  //     getComponent().then((ele) => {\n  //         var root = document.getElementById('root');\n  //         root.appendChild(ele);\n  //     })\n  // })\n  // import '../css/index.scss';\n  // document.addEventListener('click', () => {\n  //     import(/*webpackPrefetch: true*/ './click').then(({default: fn}) => {\n  //         fn();\n  //     })\n  // })\n  // webpack 与浏览器缓存\n  // import _ from 'lodash';\n  // import $ from 'jquery';\n  // import {ui} from './jquery-ui';\n  // ui();\n  // $('#root').html(_.join(['Hadwin', 'zhang'], '***'));\n  // let hi = 'hello world'\n  // $('body h4').html(`世界你好 ${hi}`)\n  console.log('指向', this);\n  console.log('指向1', this === window);\n}).call(window);"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/js/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/js/index.js",
+      "identifier": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_babel-loader@8.1.0@babel-loader\\lib\\index.js??ref--4-0!D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_imports-loader@0.8.0@imports-loader\\index.js?this=>window!D:\\Lean\\webpack4\\webpackDemo\\src\\js\\index.js",
+      "name": "./src/js/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 2850,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 148,
+        "building": 674
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/js/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "/*** IMPORTS FROM imports-loader ***/\n(function () {\n  // import Header from './header';\n  // import Sidebar from './sidebar';\n  // import Content from './content'\n  // const avatar = require('../img/girl.jpeg')\n  // console.log('avatar', avatar);\n  // new Header();\n  // new Sidebar();\n  // new Content();\n  // import createAvatar from './createAvatar';\n  // import '../css/index.scss'\n  // import style from '../css/index.scss';\n  // import avatar from '../img/girl.jpeg';\n  // const img = new Image();\n  // img.src = avatar;\n  // img.classList.add(style.avatar)\n  // const dom = document.getElementById('root');\n  // dom.append(img);\n  // createAvatar();\n  // console.log('Hello world');\n  // var root = document.getElementById('root');\n  // var btn = document.createElement('button');\n  // btn.innerHTML = '新增';\n  // root.appendChild(btn);\n  // console.log(root, btn)\n  // btn.onclick = function() {\n  //     var div = document.createElement('div');\n  //     div.innerHTML = 'item';\n  //     root.appendChild(div);\n  // }\n  // import counter from './counter';\n  // import number from './number';\n  // counter();\n  // number();\n  // if(module.hot) {\n  //     module.hot.accept('./number', () => {\n  //         number();\n  //     })\n  // }\n  // babel\n  // import '@babel/polyfill'\n  // const arr = [\n  //     new Promise(() => {}),\n  //     new Promise(() => {})\n  // ];\n  // arr.map((item) => {\n  //     console.log(item);\n  // })\n  // tree shaking (提取有用代码)\n  // import {add} from './math';\n  // console.log('add', add(100, 50));\n  // console.log('add', add(200, 50));\n  // code splitting 代码分割\n  // import _ from 'lodash';\n  // console.log('lodash join', _.join(['a', 'b', 'c'], '**'))\n  // 模块的异步加载(getComponent 是webpack提供的方法)\n  // async function getComponent() {\n  //     const {default: _} = await import(/*webpackChunkName:\"lodash\" */ 'lodash');\n  //     var div = document.createElement('div');\n  //     div.innerHTML = _.join(['Hadwin', 'zhanghuawei'], \"_\");\n  //     return div;\n  // }\n  // // 返回的其实是一个promise对象\n  // document.addEventListener('click', () => {\n  //     getComponent().then((ele) => {\n  //         var root = document.getElementById('root');\n  //         root.appendChild(ele);\n  //     })\n  // })\n  // import '../css/index.scss';\n  // document.addEventListener('click', () => {\n  //     import(/*webpackPrefetch: true*/ './click').then(({default: fn}) => {\n  //         fn();\n  //     })\n  // })\n  // webpack 与浏览器缓存\n  // import _ from 'lodash';\n  // import $ from 'jquery';\n  // import {ui} from './jquery-ui';\n  // ui();\n  // $('#root').html(_.join(['Hadwin', 'zhang'], '***'));\n  // let hi = 'hello world'\n  // $('body h4').html(`世界你好 ${hi}`)\n  console.log('指向', this);\n  console.log('指向1', this === window);\n}).call(window);"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\Lean\\webpack4\\webpackDemo\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 6756,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 757,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "5dc66b6d01c3a1e4870d",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+              "identifier": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\webpackDemo\\src\\page\\index.html",
+              "name": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 757,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 64,
+                "building": 24
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\webpackDemo\\src\\page\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\Lean\\\\webpack4\\\\webpackDemo\\\\node_modules\\\\_lodash@4.17.15@lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <h4>这是我们的网页内容</h4>\\r\\n    <div id=\"root\"></div>\\r\\n</body>\\r\\n<!-- <script src=\"../js/header.js\"></script>\\r\\n<script src=\"../js/sidebar.js\"></script>\\r\\n<script src=\"../js/content.js\"></script> -->\\r\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\webpackDemo\\src\\page\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+          "identifier": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\webpackDemo\\src\\page\\index.html",
+          "name": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 757,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 64,
+            "building": 24
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\Lean\\webpack4\\webpackDemo\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\webpackDemo\\src\\page\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\Lean\\\\webpack4\\\\webpackDemo\\\\node_modules\\\\_lodash@4.17.15@lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <h4>这是我们的网页内容</h4>\\r\\n    <div id=\"root\"></div>\\r\\n</body>\\r\\n<!-- <script src=\"../js/header.js\"></script>\\r\\n<script src=\"../js/sidebar.js\"></script>\\r\\n<script src=\"../js/content.js\"></script> -->\\r\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}

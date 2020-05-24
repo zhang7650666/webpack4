@@ -1,0 +1,370 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "63156ed32511a2ea21e5",
+  "time": 445,
+  "builtAt": 1589617803490,
+  "publicPath": "",
+  "outputPath": "D:\\Lean\\webpack4\\combat\\dist",
+  "assetsByChunkName": {
+    "main": "main.js"
+  },
+  "assets": [
+    {
+      "name": "./index.html",
+      "size": 484,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": true
+    },
+    {
+      "name": "main.js",
+      "size": 32838,
+      "chunks": [
+        "main"
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": true
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        "main.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "chunks": [
+    {
+      "id": "main",
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "size": 242,
+      "names": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "hash": "3cd96a69e2f04f19f0ea",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "childrenByOrder": {},
+      "modules": [
+        {
+          "id": "./src/js/index.js",
+          "identifier": "D:\\Lean\\webpack4\\combat\\node_modules\\_babel-loader@8.1.0@babel-loader\\lib\\index.js??ref--4-0!D:\\Lean\\webpack4\\combat\\src\\js\\index.js",
+          "name": "./src/js/index.js",
+          "index": 0,
+          "index2": 0,
+          "size": 242,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "main"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 129,
+            "building": 235
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "./src/js/index.js",
+              "loc": "main"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "console.log('指向', this);\n\nif ('serviceWorker' in navigator) {\n  document.addEventListener('load', () => {\n    navigator.serviceWorker.register('/service-worker.js').then(registration => {\n      console.log('注册成功');\n    });\n  });\n}"
+        }
+      ],
+      "filteredModules": 0,
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/js/index.js",
+          "reasons": []
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "id": "./src/js/index.js",
+      "identifier": "D:\\Lean\\webpack4\\combat\\node_modules\\_babel-loader@8.1.0@babel-loader\\lib\\index.js??ref--4-0!D:\\Lean\\webpack4\\combat\\src\\js\\index.js",
+      "name": "./src/js/index.js",
+      "index": 0,
+      "index2": 0,
+      "size": 242,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        "main"
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "profile": {
+        "factory": 129,
+        "building": 235
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [],
+      "reasons": [
+        {
+          "moduleId": null,
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "type": "single entry",
+          "userRequest": "./src/js/index.js",
+          "loc": "main"
+        }
+      ],
+      "usedExports": true,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0,
+      "source": "console.log('指向', this);\n\nif ('serviceWorker' in navigator) {\n  document.addEventListener('load', () => {\n    navigator.serviceWorker.register('/service-worker.js').then(registration => {\n      console.log('注册成功');\n    });\n  });\n}"
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "",
+      "outputPath": "D:\\Lean\\webpack4\\combat\\dist",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 6743,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "chunks": [
+        {
+          "id": "HtmlWebpackPlugin_0",
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "size": 752,
+          "names": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "files": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "hash": "0190f3e9afccb20ae47b",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "childrenByOrder": {},
+          "modules": [
+            {
+              "id": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+              "identifier": "D:\\Lean\\webpack4\\combat\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\combat\\src\\page\\index.html",
+              "name": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+              "index": 0,
+              "index2": 0,
+              "size": 752,
+              "cacheable": true,
+              "built": true,
+              "optional": false,
+              "prefetched": false,
+              "chunks": [
+                "HtmlWebpackPlugin_0"
+              ],
+              "issuer": null,
+              "issuerId": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "profile": {
+                "factory": 33,
+                "building": 31
+              },
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "type": "single entry",
+                  "userRequest": "D:\\Lean\\webpack4\\combat\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\combat\\src\\page\\index.html",
+                  "loc": "HtmlWebpackPlugin_0"
+                }
+              ],
+              "usedExports": true,
+              "providedExports": null,
+              "optimizationBailout": [],
+              "depth": 0,
+              "source": "var _ = __non_webpack_require__(\"D:\\\\Lean\\\\webpack4\\\\combat\\\\node_modules\\\\_lodash@4.17.15@lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <h4>这是我们的网页内容</h4>\\r\\n    <div id=\"root\"></div>\\r\\n</body>\\r\\n<!-- <script src=\"../js/header.js\"></script>\\r\\n<script src=\"../js/sidebar.js\"></script>\\r\\n<script src=\"../js/content.js\"></script> -->\\r\\n</html>';\nreturn __p\n})();}}"
+            }
+          ],
+          "filteredModules": 0,
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0",
+              "request": "D:\\Lean\\webpack4\\combat\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\combat\\src\\page\\index.html",
+              "reasons": []
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "id": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+          "identifier": "D:\\Lean\\webpack4\\combat\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\combat\\src\\page\\index.html",
+          "name": "./node_modules/_html-webpack-plugin@4.3.0@html-webpack-plugin/lib/loader.js!./src/page/index.html",
+          "index": 0,
+          "index2": 0,
+          "size": 752,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "issuer": null,
+          "issuerId": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "profile": {
+            "factory": 33,
+            "building": 31
+          },
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [],
+          "reasons": [
+            {
+              "moduleId": null,
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "type": "single entry",
+              "userRequest": "D:\\Lean\\webpack4\\combat\\node_modules\\_html-webpack-plugin@4.3.0@html-webpack-plugin\\lib\\loader.js!D:\\Lean\\webpack4\\combat\\src\\page\\index.html",
+              "loc": "HtmlWebpackPlugin_0"
+            }
+          ],
+          "usedExports": true,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0,
+          "source": "var _ = __non_webpack_require__(\"D:\\\\Lean\\\\webpack4\\\\combat\\\\node_modules\\\\_lodash@4.17.15@lodash\\\\lodash.js\");module.exports = function (templateParams) { with(templateParams) {return (function(data) {\nvar __t, __p = '';\n__p += '<!DOCTYPE html>\\r\\n<html lang=\"en\">\\r\\n<head>\\r\\n    <meta charset=\"UTF-8\">\\r\\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\\r\\n    <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\\r\\n    <title>Document</title>\\r\\n</head>\\r\\n<body>\\r\\n    <h4>这是我们的网页内容</h4>\\r\\n    <div id=\"root\"></div>\\r\\n</body>\\r\\n<!-- <script src=\"../js/header.js\"></script>\\r\\n<script src=\"../js/sidebar.js\"></script>\\r\\n<script src=\"../js/content.js\"></script> -->\\r\\n</html>';\nreturn __p\n})();}}"
+        }
+      ],
+      "filteredModules": 0,
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    }
+  ]
+}

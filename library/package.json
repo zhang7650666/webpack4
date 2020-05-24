@@ -1,0 +1,17 @@
+{
+  "name": "hadwin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/js/library.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Hadwin",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "hadwin": "^1.0.0"
+  }
+}
